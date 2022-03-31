@@ -5,6 +5,22 @@ import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
 import ClientArea from "./modules/ClientArea";
 
+// React Related Code Goes Here
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+// Import React Components that we created
+import MyAmazingComponent from "./modules/MyAmazingComponent";
+
+// Create Root -- No Longer ReactDOM.render
+const root = ReactDOM.createRoot(
+  // Updated From Render, No Longer <MyAmazingComponent />,
+  document.querySelector("#my-react-example")
+);
+
+// Render Element to the Root
+root.render(<MyAmazingComponent />);
+
 new ClientArea();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 65);
