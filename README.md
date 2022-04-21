@@ -1,5 +1,5 @@
 # travel-site
-Travel site for LearnWebCode course
+Travel site from LearnWebCode course: https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/
 
 # Technologies
 Leveraged, Git, GitHub, Node.js, NPM, JavaScript, ES6, webpack, Netlify, and PostCSS.
